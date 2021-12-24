@@ -50,6 +50,7 @@ public class MainViewController implements Initializable{
 			FXMLLoader loader = new FXMLLoader(getClass().getResource(absoluteName));
 			VBox newVBox = loader.load();	
 			
+			// abrindo a partir da janela principal
 			Scene mainScene = Main.getMainScene();
 			VBox mainVBox = (VBox) ((ScrollPane)mainScene.getRoot()).getContent();
 			
